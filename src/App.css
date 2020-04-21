@@ -1,0 +1,40 @@
+.app{
+  width:100vw;
+  height:100vh;
+  }
+  .container{
+    padding: 0;
+  }
+  .the-app{
+  width: 100%;
+  background-color: #4e575e;
+  height:100vh;
+  padding: 0;
+}
+.form-control{
+  border: 0 ;
+  border-radius: 0;
+  width:80%;
+  margin: 0;
+}
+.btn-primary{
+  border-radius: 0;
+  width: 20%;
+  border: 0 ;
+  margin: 0;
+}
+.inputfield{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  margin: auto;
+  padding: 3px;
+}
+.inputfield input{
+  background-color: #96bae0;
+  color: white;
+}
+.inputfield input::placeholder{
+  color: white;
+  font-size: 20px;
+}
